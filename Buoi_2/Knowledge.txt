@@ -1,0 +1,13 @@
+1. Biến:
+ - Khai báo biến
+2. Kiểu dữ liệu: 
+ - Premitive type: int, long, double, byte, float
+ - Object Type: Student, Teacher,...
+ - Array, List, Set, Hashtable, Stack, Queue,...
+3. Vòng lặp:
+ - For, while, do...while, for in
+4. Cấu trúc rẽ nhánh:
+- if...else
+- switch...case
+5. Hàm/Phương thức
+6.OOP (object oriented programming) - Lập trình hướng đối tượng
