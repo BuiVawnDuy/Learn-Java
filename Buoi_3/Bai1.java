@@ -6,26 +6,25 @@ public class Bai1{
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         int soSV = sc.nextInt();
-        int[] diemSVs = new int[soSV];
+        int[] diem = new int[soSV];
         for(int i=0;i<soSV;i++){
-            diemSVs[i] = sc.nextInt();
+            diem[i] = sc.nextInt();
         }
 
         System.out.println("Diem\tSo SV\tHistogram");
         
-        int diem = 0;
-        while(diem <= 10){
+        int d = 0;
+        while(d <= 10){
             int cnt = 0;
-            for(int diemSV : diemSVs){
-                if(diemSV == diem) cnt++;
+            for(int di : diem){
+                if(d == di) cnt++;
             }
-            System.out.printf("%d\t%d\t", diem, cnt);
+            System.out.printf("%d\t%d\t", d, cnt);
             for(int i=0;i<cnt;i++){
                 System.out.print("*");
             }
             System.out.println();
-            diem++;
+            d++;
         }
-        
     }
 }
