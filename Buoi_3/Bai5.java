@@ -5,12 +5,16 @@ import java.util.Scanner;
 public class Bai5 {
     public static int intReverse(int n){
         int result = 0;
-        while(n > 0){
-            int tmp = n % 10;
-            result = result * 10 + tmp;
-            n /= 10;
+        int tmp = n;
+        if(tmp<0){
+            tmp = -tmp;
         }
-        return result;
+        while(tmp > 0){
+            int t = tmp % 10;
+            result = result * 10 + t;
+            tmp /= 10;
+        }
+        return n > 0 ? result : -result;
     }
 
     public static void main(String[] args) {
