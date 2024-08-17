@@ -1,0 +1,9 @@
+1. Duy:
+- Biến
+- Kiểu du lieu
+- if-else
+- vòng lặp
+- hàm/phương thức
+- oop
+2. An:
+- tương tự Duy + thao tác file
